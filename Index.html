@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character encoding, compatibility, and viewport settings -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the webpage -->
+    <title>E-Fólio A - Computação Gráfica</title>
+
+    <!-- Internal styles for the webpage -->
+    <style>
+      /* Body styling */
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black; /* Sets the background color to black */
+      }
+
+      /* Styling for the title box */
+      .title-box {
+        position: absolute; /* Positions the box absolutely */
+        top: 0; /* Aligns the box to the top of the page */
+        left: 0; /* Aligns the box to the left */
+        background-color: rgba(11, 44, 26, 1); /* Sets the background color to dark green */
+        color: white; /* Sets the text color to white */
+        padding: 20px;
+        font-size: 24px; /* Sets the font size of the title */
+        z-index: 1; /* Ensures the box stays above other elements */
+      }
+
+      /* Styles for print impressions */
+      .impressoes {
+        position: absolute;
+        top: 100px; /* Adjusts the vertical position as necessary */
+        left: 0;
+        color: white;
+        font-size: 16px;
+      }
+    </style>
+
+    <!-- Importing an external script with the "defer" attribute -->
+    <script defer src="./src/script.mjs" type="module"></script>
+  </head>
+  <body>
+    <!-- Container for the title box with the specified text -->
+    <div class="title-box">
+      E-Fólio A - Computação Gráfica - 2023/2024
+    </div>
+    <!-- Script container (currently empty) -->
+    // <div class="impressoes">
+      <script>
+      </script>
+    </div>
+  </body>
+</html>
